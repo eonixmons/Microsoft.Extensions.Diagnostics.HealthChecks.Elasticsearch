@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <PackageId>Eonix.Microsoft.Extensions.Diagnostics.HealthChecks.Elasticsearch</PackageId>
+        <Title>Microsoft.Extensions.Diagnostics.HealthChecks.Elasticsearch</Title>
+        <Authors>Eonix</Authors>
+        <Description>An extension to ASP.net core health check system that allows health checking an Elasticsearch cluster</Description>
+        <Copyright>Eonix</Copyright>
+        <PackageProjectUrl>https://github.com/eonixmons/Microsoft.Extensions.Diagnostics.HealthChecks.Elasticsearch</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/eonixmons/Microsoft.Extensions.Diagnostics.HealthChecks.Elasticsearch</RepositoryUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks" Version="6.0.3" />
+      <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="6.0.0" />
+    </ItemGroup>
+
+</Project>
